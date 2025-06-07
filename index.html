@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Doctor Appointment Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h2>Doctor Appointment Form</h2>
+  <hr class="red-line" />
+
+  <div class="container">
+    <img src="doctor.jpg" alt="Doctor" class="side-image" />
+
+    <form>
+      <label>Appointment Date:</label>
+      <input type="date" name="date" /><br /><br />
+
+      <label>Appointment Time:</label>
+      <input type="time" name="time" /><br /><br />
+
+      <label>Name:</label>
+      <input type="text" placeholder="First" />
+      <input type="text" placeholder="Last" /><br /><br />
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" /> Male
+      <input type="radio" name="gender" /> Female<br /><br />
+
+      <label>Phone:</label>
+      <input type="tel" placeholder="#####" /><br /><br />
+
+      <label>Address:</label>
+      <input type="text" placeholder="City" />
+      <input type="text" placeholder="State" /><br /><br />
+
+      <label>Your Query:</label><br />
+      <textarea rows="4" cols="40"></textarea><br /><br />
+
+      <label>Appointment Type:</label><br />
+      <input type="checkbox" /> Cervix checkup<br />
+      <input type="checkbox" /> Heart checkup<br />
+      <input type="checkbox" /> Eye check-up<br />
+      <input type="checkbox" /> Hearing Test<br /><br />
+
+      <input type="submit" value="Send" />
+    </form>
+  </div>
+</body>
+</html>

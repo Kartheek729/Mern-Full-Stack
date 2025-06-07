@@ -1,0 +1,69 @@
+/* Center the heading */
+h2 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for horizontal red line */
+.red-line {
+  width: 50%;            /* half screen width */
+  border: none;          /* remove default border */
+  height: 3px;           /* thickness */
+  background-color: red; /* red color */
+  margin: 10px auto;     /* center horizontally with top/bottom margin */
+}
+
+/* Container holding image and form side by side */
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  align-items: stretch; /* make children same height */
+  gap: 30px; /* space between image and form */
+}
+
+/* Style the image */
+.side-image {
+  width: 300px;        /* fixed width */
+  object-fit: cover;   /* cover entire box */
+  border-radius: 8px;
+  height: auto;        /* scale height automatically */
+}
+
+/* Make form take remaining space */
+form {
+  flex: 1;
+  font-family: Arial, sans-serif;
+}
+
+/* Label styling for spacing */
+label {
+  display: inline-block;
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #2a7ae2;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1a5acb;
+}
