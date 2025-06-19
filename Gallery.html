@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f2f2f2;
+    }
+
+    h1 {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      border-top: 5px solid orange;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 40px;
+      justify-items: center;
+    }
+
+    .photo-box {
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+      overflow: hidden;
+      background-color: white;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .photo-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Photo Gallery</h1>
+
+  <div class="gallery">
+    <div class="photo-box"><img src="Photo gallery1.jpg" alt="img1"></div>
+    <div class="photo-box"><img src="Photo gallery2.jpg" alt="img2"></div>
+    <div class="photo-box"><img src="Photo gallery3.jpg" alt="img3"></div>
+    <div class="photo-box"><img src="Photo gallery4.jpg" alt="img4"></div>
+    <div class="photo-box"><img src="Photo gallery5.jpg" alt="img5"></div>
+    <div class="photo-box"><img src="Photo gallery6.jpg" alt="img6"></div>
+    <div class="photo-box"><img src="Photo gallery7.jpg" alt="img7"></div>
+    <div class="photo-box"><img src="Photo gallery8.jpg" alt="img8"></div>
+  </div>
+
+</body>
+</html>
