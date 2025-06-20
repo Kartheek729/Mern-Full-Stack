@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music World</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('Music.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      padding: 20px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.7);
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      text-align: center;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: white;
+      background: #555;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      background: #888;
+    }
+
+    .section {
+      margin: 30px auto;
+      width: 90%;
+      border: 2px dotted white;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.4);
+    }
+
+    .section h2 {
+      font-size: 24px;
+      border-bottom: 2px solid white;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .album-row {
+      display: flex;
+      overflow-x: auto;
+      gap: 15px;
+    }
+
+    .album-row img {
+      height: 200px;
+      border: 2px solid white;
+      border-radius: 10px;
+    }
+
+    /* Scrollbar customization (optional) */
+    .album-row::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    .album-row::-webkit-scrollbar-thumb {
+      background: #555;
+      border-radius: 4px;
+    }
+
+    .album-row::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Music World</h1>
+
+  <div class="navbar">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">CATEGORY ↓</a>
+    <a href="#">PRODUCTION</a>
+    <a href="#">GALLERY</a>
+    <a href="#">CONTACT US</a>
+    <a href="#">LOGIN</a>
+  </div>
+
+  <div class="section">
+    <h2>→ Latest Album ...</h2>
+    <div class="album-row">
+      <img src="Music1.jpg" alt="Album 1">
+      <img src="Music2.jpg" alt="Album 2">
+      <img src="Music3.jpg" alt="Album 3">
+      <img src="Music4.jpg" alt="Album 4">
+      <img src="Music5.jpg" alt="Album 5">
+      <img src="Music2.jpg" alt="Album 6">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>→ TOP 10 Songs ...</h2>
+    <div class="album-row">
+      <img src="Musics1.jpg" alt="Song 1">
+      <img src="Musics2.jpg" alt="Song 2">
+      <img src="Musics3.jpg" alt="Song 3">
+      <img src="Musics4.jpg" alt="Song 4">
+      <img src="Musics5.jpg" alt="Song 5">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>→ Top 10 Artist ...</h2>
+    <div class="album-row">
+      <img src="Musicar1.jpg" alt="Artist 1">
+      <img src="Musicar2.webp" alt="Artist 2">
+      <img src="Musicar3.jpg" alt="Artist 3">
+      <img src="Musicar4.webp" alt="Artist 4">
+      <img src="Musicar5.webp" alt="Artist 5">
+    </div>
+  </div>
+
+</body>
+</html>
